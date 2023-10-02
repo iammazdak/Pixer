@@ -9,6 +9,10 @@ module.exports = {
       lightgray: '#F6F6F3',
       lightgray: '#F6F6F3',
       balck: '#040406',
+      white: '#ffffff',
+    },
+    boxShadow: {
+      headerShadow: '0 5px 100px rgba(138, 138, 138, 18%)',
     }
   },
   plugins: [],
