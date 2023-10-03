@@ -1,5 +1,11 @@
 // let document = $
 
+let preloader = document.getElementById('preloader')
+
+window.addEventListener('load', function () {
+    preloader.classList.add('hidden')
+})
+
 let topbar = document.getElementById('topbar');
 let closeBtn = document.getElementById('topbar-close-btn');
 
@@ -9,6 +15,7 @@ closeBtn.addEventListener('click', function() {
 
 let hamburgerMenubtn = document.getElementById('hamburger-menu-btn');
 let hamburgerMenu = document.getElementById('hamburger-menu');
+
 let openIcon = document.getElementById('open-btn');
 let closeIcon = document.getElementById('close-btn');
 
