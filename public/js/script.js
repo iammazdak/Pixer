@@ -8,9 +8,12 @@ window.addEventListener('load', function () {
 
 let topbar = document.getElementById('topbar');
 let closeBtn = document.getElementById('topbar-close-btn');
+let header = document.getElementById('header')
 
 closeBtn.addEventListener('click', function() {
     topbar.style.display = "none"
+    header.classList.add('top-0')
+    header.classList.remove('top-[55px]')
 })
 
 let hamburgerMenubtn = document.getElementById('hamburger-menu-btn');
