@@ -522,10 +522,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -538,56 +534,28 @@ video {
   position: sticky;
 }
 
+.left-\[320px\] {
+  left: 320px;
+}
+
 .right-5 {
   right: 1.25rem;
-}
-
-.top-4 {
-  top: 1rem;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.top-\[200px\] {
-  top: 200px;
-}
-
-.right-\[2\] {
-  right: 2;
-}
-
-.right-\[200px\] {
-  right: 200px;
-}
-
-.right-\[300px\] {
-  right: 300px;
-}
-
-.top-\[250px\] {
-  top: 250px;
-}
-
-.top-\[220px\] {
-  top: 220px;
-}
-
-.right-\[350px\] {
-  right: 350px;
 }
 
 .right-\[320px\] {
   right: 320px;
 }
 
-.left-\[320px\] {
-  left: 320px;
+.top-0 {
+  top: 0px;
 }
 
-.top-\[\] {
-  top: ;
+.top-4 {
+  top: 1rem;
+}
+
+.top-\[220px\] {
+  top: 220px;
 }
 
 .top-\[55px\] {
@@ -596,14 +564,6 @@ video {
 
 .-z-0 {
   z-index: 0;
-}
-
-.z-0 {
-  z-index: 0;
-}
-
-.z-10 {
-  z-index: 10;
 }
 
 .-z-10 {
@@ -727,6 +687,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-3xl {
@@ -949,10 +913,6 @@ body {
 }
 
 @media (min-width: 640px) {
-  .sm\:block {
-    display: block;
-  }
-
   .sm\:flex {
     display: flex;
   }
@@ -1006,11 +966,5 @@ body {
   .lg\:px-\[100px\] {
     padding-left: 100px;
     padding-right: 100px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:block {
-    display: block;
   }
 }

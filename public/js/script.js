@@ -27,10 +27,12 @@ hamburgerMenubtn.addEventListener('click', function() {
         openIcon.style.display = 'none'
         closeIcon.style.display = 'block'
         hamburgerMenu.style.display = 'block'
+        document.querySelector('body').style.overflow = 'hidden'
     } else {
         openIcon.style.display = 'block'
         closeIcon.style.display = 'none'
         hamburgerMenu.style.display = 'none'
+        document.querySelector('body').style.overflow = 'auto'
     }
 })
 
